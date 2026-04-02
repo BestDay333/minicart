@@ -1,0 +1,4 @@
+accessWidener v2 named
+
+accessible method net/minecraft/client/render/FogRenderer getFogColor (Lnet/minecraft/client/render/Camera;FLnet/minecraft/client/world/ClientWorld;ILnet/minecraft/util/math/Vec3d;)Lnet/minecraft/util/math/Vec3f;
+accessible method net/minecraft/client/render/FogRenderer applyFog (Lnet/minecraft/client/render/Camera;FLnet/minecraft/client/world/ClientWorld;ILF)Lnet/minecraft/client/render/FogRenderer$FogData;

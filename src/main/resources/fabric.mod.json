@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "nofog",
+  "version": "${version}",
+  "name": "NoFog",
+  "description": "A client-side mod that disables fog in Minecraft. Press F6 to toggle fog on/off.",
+  "authors": [
+    "Developer"
+  ],
+  "contact": {
+    "homepage": "https://github.com/example/nofog"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.nofog.NoFogMod"
+    ]
+  },
+  "mixins": [
+    "nofog.mixins.json"
+  ],
+  "accessWidener": "nofog.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
